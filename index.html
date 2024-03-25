@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+       
+        <a >salman</a></div>
+        <nav class="nav">  
+        <a class="nav-item active" href="index.html"  >Home</a>
+        <a class="nav-item"  href="#about">About</a>
+        <a class="nav-item"  href="#portfolio">portfolio</a>
+        <a class="nav-item"  href="#contact">contact</a>
+        </nav>
+        <a href="#" class="menu"><i class='bx bx-menu'></i></a>    
+    </div>
+    <section class="home">
+
+        <div class="home-content">
+            <h1 >i'm salman Ahmed Abdi</h1>
+             <h3>front-end web developer</h3>
+             <p>Welcome to my portfolio website</p>
+            <div class="btn">
+                <a href="#portfolio" class="">project</a>
+            
+            </div> 
+        </div>
+        <div class="icons">
+           <a href="https://www.facebook.com/salmaan.ahmed.samowade.2346"><i class='bx bxl-facebook-circle'></i></a>
+           <a href="https://www.instagram.com/salman_ismalure/"><i class='bx bxl-instagram'></i></a>
+           <a href="#"><i class='bx bxl-twitter'></i></a>
+           <a href="https://github.com/Ismalure12"><i class='bx bxl-github'></i></a>
+        </div>
+    </section>
+    <!-- <hr class="divider"> -->
+    <section class="about" id="about">
+        <div class="row">
+         <div class="col-1">
+             <img src="salman.png" alt="my-pic">
+         </div>
+         <div class="col-2">
+             <h2>About-Me</h2>
+             <p>Salman is a talented front-end web developer with a passion
+                 for creating beautiful and functional websites. 
+                 He specializes in HTML, CSS, Bootstrap, JavaScript, and UI design,
+                 and has worked on a wide range of projects for clients around the world.</p><br>
+              <p>Salman's journey into web development began when he was a
+                 teenager,tinkering with HTML and CSS to create his own personal 
+                 website. Over time, his passion for web development grew, 
+                 and he began taking on freelance projects for clients.</p><br>
+              <p>In addition to his technical skills, Salman is also a skilled 
+                 communicator and collaborator. He works closely with clients 
+                 to understand their needs and goals, and is committed to delivering
+                 solutions that exceed their expectations.</p>
+           <h2 class="caaq"> My-skills</h2>
+           <div class="skills">
+             <a class="her" href="#"><i class="fa-brands fa-html5" style="color: #000;"></i></a>
+             <a href="#"><i class="fa-brands fa-css3-alt" style="color: #000;"></i></a>
+             <a href="#"><i class="fa-brands fa-js" style="color: #000;"></i></a>
+             <a href="#"><i class="fa-brands fa-bootstrap" style="color: #000;"></i></a>
+             <a href="#"><i class="fa-brands fa-react" style="color: #000;"></i></a>
+ 
+         </div>
+         </div>
+         
+        </div>
+     </section>
+ 
+  <section id="portfolio" class="portfolio">
+    <h1 class="hr">My Projects</h1>
+    <div class="projects">
+        <div class="calculator">
+            <div class="calculatorimg">
+                <img src="cal-img.png" alt="">
+            </div>
+            <div class="calculator-content">
+                <h1>calculator</h1>
+                <p>this is calculator project which is working very well 
+                    and has all functionalities that calculator must have</p>
+                    <button><a href="https://ismalure12.github.io/calculator/">Demo</a></button>
+        </div>
+        </div>
+    </div>
+
+  </section>
+  <section id="contact">
+   <div class="h1"> <h1> Contact-Me </h1></div>
+    <div class="contact-container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <label for="name"> Name <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+            <label for="email"> Email <input id="email" name="email" type="email" placeholder="Enter your email" required></label>
+            <label for="message">Message <textarea name="message" id="message" cols="30" rows="10" required></textarea></label>
+            <label for="submit"> <input id="submit" value="Send Email" type="submit"></label>
+        </form>
+       
+    </div>
+  </section>
+  
+  <footer id="footer">
+    <div class="footer-content"><h2 class="h2">salman Ahmed</h2>
+    <p>A Frontend focused Web Developer building the Frontend of Websites and <br> Web Applications that leads to the success of the overall product</p>
+</div>
+<div class="footer-content">
+    <h2 >contact on social media</h2>
+    <div class="footer-icons">
+        <a href="https://www.facebook.com/salmaan.ahmed.samowade.2346"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="https://www.instagram.com/salman_ismalure/"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="https://github.com/Ismalure12"><i class='bx bxl-github'></i></a>
+     </div>
+</div>
+<hr class="hr-footer">
+<p class="copyright">
+    copyright@ by salman Ahmed 
+    <script>document.write(new Date().getFullYear())</script>
+</p>
+  </footer>
+
+</body>
+
+</html>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/da838dd8da.js" crossorigin="anonymous"></script>
